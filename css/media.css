@@ -1,113 +1,35 @@
-@media screen and (max-width: 1280px) {
-  .contanier {
-    width: fit-content;
-    padding: 20px 10px;
-  }
-  main {
-    margin-right: 60px;
-  }
-  .logo .left,
-  .quick-actions h3,
-  .quick-actions button span,
-  .nav li span span {
-    display: none;
-  }
-  .contanier .nav ul li span {
-    padding: 12px 8px;
-  }
-  .nav li span {
-    justify-content: center;
-    padding: 14px;
-  }
-  .logo {
-    justify-content: center;
-  }
-  .quick-actions button {
-    justify-content: center;
-    padding: 10px;
-  }
-  .dashboard-widgets {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.3fr 0.5fr 0.4fr 1fr 1fr;
-    grid-template-areas:
-      "new-activits Income-versus-expenses"
-      "table table"
-      "Monthly-bills Account-summary"
-      "Payment-methods Budget-overview";
-  }
-  .dashboard-widgets > div {
-    height: fit-content;
-  }
-  .between {
-    flex-flow: row;
-    justify-content: space-between;
-  }
-  .c-Budget-overview > div {
-    height: 79px;
-  }
-  div.Account-summary {
-    height: 88.5%;
-  }
-  .contanier .quick-actions > div button {
-    padding: 0;
-    margin-bottom: 12px;
-  }
-  .contanier .quick-actions > div > button {
-    margin-bottom: 12px;
-  }
-  .fit {
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 13px;
-  }
+@media screen and (max-width: 991px) {
+  .navbar div ul {
+  border-bottom: 1px solid #1e2939;
 }
-@media screen and (max-width: 840px) {
-  .dashboard-widgets {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr;
-    grid-template-areas:
-    "new-activits"
-    "Monthly-bills"
-    "table"
-      "Income-versus-expenses"
-      "Payment-methods"
-      "Account-summary"
-      "Budget-overview";
-  }
+.navbar-collapse{
+    border-top: 1px solid #1e2939;
+}
+.navbar-toggler i{
+font-size:24px;
+}
+.right-container > div{
+
+        width:100%;
+
+}
+.container-fluid{
+  padding: 16px 32px !important;
+}  
+  
+}
+@media screen and (min-width: 1024px) {
+.top-foot{
+ flex-flow: row!important;
+ gap: 52px;
+}
+.top-foot > div {
+  gap: 52px;
+}
 }
 @media screen and (max-width: 973px) {
-  .summary-cards {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "Current-balance Income"
-      "expenses-card .";
-  }
+
 }
 @media screen and (max-width: 689px) {
-header > div {
-    flex-flow: column;
-    gap: 20px;
-  }
-  .summary-cards {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "Current-balance"
-      "Income"
-      "expenses-card";
-  }
-  .table {
-    overflow: scroll;
-  }
-  table {
-    width: 600px;
-    overflow: scroll;
-  }
-  .card{
-    position: relative
-;z-index: 1;
-  }
-  aside{
-position: relative
-;z-index: 100000;
-  }
+
 }
