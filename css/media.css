@@ -24,7 +24,7 @@
     gap: 52px;
   }
 }
-@media screen and (max-width: 590px){
+@media screen and (max-width: 610px){
   .p-home h1{  
 font-size: 50px;
 }
