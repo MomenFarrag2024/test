@@ -24,8 +24,21 @@
     gap: 52px;
   }
 }
-@media screen and (max-width: 610px){
+@media screen and (max-width: 590px){
   .p-home h1{  
 font-size: 50px;
 }
+}
+@media screen and (max-width: 768px){
+  .what-we-do .row {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+    .what-we-do .row > div {
+      width: 90% !important;
+      margin: 0 auto !important;
+      height: 400px !important;
+    }
 }
